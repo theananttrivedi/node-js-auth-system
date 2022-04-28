@@ -1,0 +1,22 @@
+{
+  "name": "node-js-auth-system",
+  "version": "1.0.0",
+  "description": "Node js Authentication APIs using Sqlite and Prisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Anant Trivedi",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "prisma": "^3.13.0"
+  }
+}
